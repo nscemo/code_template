@@ -1,7 +1,8 @@
 /*
-for (int i=1; i<10; ++i) myvector.push_back(i);   // 1 2 3 4 5 6 7 8 9
-
-std::reverse(myvector.begin(),myvector.end());    // 9 8 7 6 5 4 3 2 1
+    string s = "abc";
+    cout<<s<<endl;
+    reverse(s.begin(),s.end());
+    cout<<s<<endl;
 */
     void reverseString(string s, int from , int to)
     {
